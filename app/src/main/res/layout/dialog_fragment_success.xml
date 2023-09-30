@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/blue">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/baseline_check_circle_outline_24"
+        android:importantForAccessibility="no" />
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dialogTextSuccess"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textAlignment="center" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonSuccess"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/layout_20_dp"
+            android:textColor="@color/white"
+            android:background="@color/blue"
+            android:text="@string/done"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

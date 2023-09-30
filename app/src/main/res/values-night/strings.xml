@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SeedGrower</string>
+
+    <!--Login-->
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="register">Registrarse</string>
+
+    <!--Register-->
+    <string name="enter_user_register">Ingresa tus datos de registro</string>
+    <string name="register_user">Registro</string>
+    <string name="user">Usuario</string>
+    <string name="send_register">Enviar registro</string>
+
+</resources>
